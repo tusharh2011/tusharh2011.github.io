@@ -8,3 +8,23 @@
   background-size: cover;
 }
 
+/* Fullscreen overlay for modal background */
+#active-popup {
+  background-color: rgba(52,73,94, 0.7);
+  position: absolute;
+  width: 100%;
+  heighT: 100% !important;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+/* Modal container */
+#popup-container {
+  margin-top: 5%;
+}
+
+.modal-content h1,
+.modal-content p { color: black; }
+
+
