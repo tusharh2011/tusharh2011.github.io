@@ -1,5 +1,6 @@
 $('.carousel').carousel({
-  interval: 3500
+  // interval: 5000
+   interval: false
 })
 
 
@@ -39,3 +40,4 @@ jQuery(document).mouseup(function(e){
   }
 
 });
+
