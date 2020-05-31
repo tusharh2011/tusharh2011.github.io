@@ -7,6 +7,7 @@ jQuery(document).ready(function(){
   jQuery('#disc-close').click(function(){
       jQuery('#popup-container').fadeOut();
       jQuery('#active-popup').fadeOut();
+      $(window).scrollTop(0);
   });
   
   var visits = jQuery.cookie('visits') || 0;
